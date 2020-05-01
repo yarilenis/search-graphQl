@@ -1,0 +1,27 @@
+// paths use css
+// ------------------------------------------------
+$imgs: '../public/static/images/';
+$font-path: '../public/fonts';
+$fa-font-path: $font-path;
+
+// Define colors
+// ------------------------------------------------
+$theme-colors: (
+  "primary": #e7b00a,
+  "dark": #1b1d1e,
+  "facebook": #3b5998,
+  "twitter": #00b2ff
+);
+
+$body-color: #333;
+$white-color: #fff;
+
+// Fonts
+// ------------------------------------------------
+$font-size-base: 1rem;
+$font-family-base: sans-serif;
+
+// Slick
+$slick-static: "../public/static/slick/";
+$slick-font-path: $slick-static + "fonts/";
+$slick-loader-path: $slick-static;

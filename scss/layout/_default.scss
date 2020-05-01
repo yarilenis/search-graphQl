@@ -1,0 +1,22 @@
+// footer
+.footer-page{
+  background: theme-color('dark');
+  color: $white-color;
+  padding: 15px 0;
+  hr{
+    border-color: #555;
+  }
+}
+
+.footer-logo{
+  margin-bottom: 10px;
+}
+
+.footer-nav{
+  a{
+    font-size: 13px;
+    display: inline-block;
+    color: darken($white-color, 30%);
+    padding: 4px 20px 4px 0px;
+  }
+}

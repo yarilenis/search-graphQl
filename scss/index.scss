@@ -1,0 +1,13 @@
+// Global scss
+@import 'config';
+@import "mixins/index";
+// Libraries
+@import '~bootstrap/scss/bootstrap';
+@import '~font-awesome/scss/font-awesome';
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
+// Local styles
+@import "base/index";
+@import "layout/index";
+@import "components/index";
+@import "pages/index";
